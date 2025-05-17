@@ -1,7 +1,8 @@
 import socket
 
-host = "MY IP"
-port = 4444
+#Configuration - Replace with actual values
+host = "YOUR_IP"
+port = YOUR_PORT
 
 # try and connect to a bind shell
 try:
