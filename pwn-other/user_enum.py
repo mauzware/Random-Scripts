@@ -1,10 +1,10 @@
 import requests
 
 # Define the target URL
-url = "http://lookup.thm/login.php"
+url = "http://{DOMAIN}/login.php"
 
 # Define the file path containing usernames
-file_path = "/usr/share/seclists/Usernames/Names/names.txt"
+file_path = "/path/to/wordlist/Usernames/Names/names.txt"
 
 # Read the file and process each line
 try:
@@ -17,7 +17,7 @@ try:
             # Prepare the POST data
             data = {
                 "username": username,
-                "password": "password"  # Fixed password for testing
+                "password": "password"  # Fixed password for testing, change it depending on your situation
             }
 
             # Send the POST request
