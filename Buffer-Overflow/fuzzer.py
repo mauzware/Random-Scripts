@@ -2,7 +2,7 @@
 
 import socket, time, sys
 
-ip = "MACHINE_IP"
+ip = "TARGET_IP"
 
 port = 1337
 timeout = 5
