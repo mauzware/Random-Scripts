@@ -3,7 +3,7 @@ import requests
 # Define the target URL
 url = "http://{DOMAIN}/login.php"
 
-# Define the file path containing usernames
+# Define the file path containing usernames, use Seclists
 file_path = "/path/to/wordlist/Usernames/Names/names.txt"
 
 # Read the file and process each line
