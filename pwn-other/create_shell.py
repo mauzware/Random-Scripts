@@ -1,7 +1,7 @@
 import socket
 
 # Configuration
-target_ip = "10.10.23.85"  # Target IP
+target_ip = "TARGET_IP"  # Target IP
 target_port = 8000          # Target port
 password = "abc123"         # Known password
 
