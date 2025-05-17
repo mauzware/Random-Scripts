@@ -20,8 +20,8 @@ def fuzz_endpoints(ip, port, endpoints):
 endpoint_list = ["some_endpoint", "shell", "admin", "backup", "reset", "login", "help", "root", "register", "old"]
 
 # Target IP and port (replace with actual values)
-target_ip = "10.10.23.85"
-target_port = 8000
+target_ip = "TARGET_IP"
+target_port = TARGET_PORT
 
 # Fuzz the endpoints
 fuzz_endpoints(target_ip, target_port, endpoint_list)
