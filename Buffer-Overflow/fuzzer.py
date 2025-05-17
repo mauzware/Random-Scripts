@@ -4,7 +4,7 @@ import socket, time, sys
 
 ip = "TARGET_IP"
 
-port = 1337
+port = TARGET_PORT
 timeout = 5
 prefix = "OVERFLOW1 "
 
