@@ -2,7 +2,7 @@
 
 ## **email_checker.py**
 
-usage: python3 email_checker.py <email list>
+usage: python3 email_checker.py [email_list]
 
 EVERYTHING IS HARD CODED INSIDE THE CODE:
 
