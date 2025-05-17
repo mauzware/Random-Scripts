@@ -1,10 +1,10 @@
 from pwn import *
 
-# Set the host and port
-host = "pyrat.thm"
-port = 8000
+# Set the host and port with actual values
+host = "TARGET_DOMAIN"
+port = TARGET_PORT
 
-directory_file = "endpoints.txt"
+directory_file = "endpoints.txt" #Create a .txt file with endpoints you want to fuzz
 
 # Connect to the target
 def connect_to_service():
