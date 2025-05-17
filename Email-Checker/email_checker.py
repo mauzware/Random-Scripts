@@ -11,9 +11,9 @@ def check_email(email):
         'Accept-Encoding': 'gzip, deflate',
         'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
         'X-Requested-With': 'XMLHttpRequest',
-        'Origin': 'http://{DOMAIN}',
+        'Origin': 'http://{DOMAIN}', #Change to actual domain
         'Connection': 'close',
-        'Referer': 'http://{DOMAIN}/path/to/verbose_login/',
+        'Referer': 'http://{DOMAIN}/path/to/verbose_login/', #Change to actual value
     }
     data = {
         'username': email,
