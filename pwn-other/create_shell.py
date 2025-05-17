@@ -1,9 +1,9 @@
 import socket
 
-# Configuration
+# Configuration - Replace with actual values
 target_ip = "TARGET_IP"  # Target IP
-target_port = 8000          # Target port
-password = "abc123"         # Known password
+target_port = TARGET_PORT          # Target port
+password = "KNOWN_PASSWORD"         # Known password
 
 def connect_and_interact():
     try:
