@@ -1,10 +1,10 @@
 import requests
 
 # Define the target URL
-url = "http://{DOMAIN}/login.php"
+url = input("Enter the login URL you want to brute force: ")
 
 # Define the file path containing usernames, use Seclists
-file_path = "/path/to/wordlist/Usernames/Names/names.txt"
+file_path = input("Enter the full path to wordlist: ")
 
 # Read the file and process each line
 try:
