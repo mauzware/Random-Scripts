@@ -2,7 +2,7 @@ import hashlib
 import base64
 import requests
 
-URL = input("Enter the admin page URL: ") # http://10.10.106.87/administration.php
+URL = input("Enter the admin page URL: ") # http://[IP]/administration.php
 
 with open ("passwords.txt", 'r') as _f:
     data = [x.strip() for x in _f.readlines()]
