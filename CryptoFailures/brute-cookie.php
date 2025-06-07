@@ -1,6 +1,6 @@
 <?php
 //$url = "CHANGE_THIS";
-$url ="http://10.10.236.94/";
+$url ="http://[IP]/";
 
 $ENC_SECRET_KEY = "";
 $payload = " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~";
