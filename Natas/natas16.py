@@ -1,3 +1,4 @@
+#brute forcing command injection in order to get pw
 import requests
 
 username = "natas16"
