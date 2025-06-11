@@ -1,3 +1,3 @@
 eveything is hardcoded
 
-Credit also goes to my bro: https://github.com/mrblue223
+Credit for `brute-cookie.php` goes to my bro: https://github.com/mrblue223
