@@ -3,7 +3,7 @@
 import requests
 
 target = 'http://natas25.natas.labs.overthewire.org'
-auth = ('natas25', 'ckELKUWZUfpOv6uxS6M7lXBpBssJZ4Ws')
+auth = ('natas25', '[PW_HERE]')
 
 cookies = dict()
 # this forces the application to call logRequest() function
