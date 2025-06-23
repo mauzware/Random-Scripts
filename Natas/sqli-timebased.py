@@ -4,7 +4,7 @@ import time
 
 characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 
-auth = ("natas17", "EqjHJbo7LFNb8vwhHb9s75hokh5TF0OC")
+auth = ("natas17", "[PW_HERE]")
 
 url = "http://natas17.natas.labs.overthewire.org"
 
