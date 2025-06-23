@@ -1,6 +1,6 @@
 import requests
 
-auth = ("natas18", "6OG1PbKdVjyBlpxgD4DDbRG6ZLlCGgCJ")
+auth = ("natas18", "[PW_HERE]")
 url = "http://natas18.natas.labs.overthewire.org"
 
 for i in range(1, 641):
