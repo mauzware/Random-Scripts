@@ -1,7 +1,7 @@
 import requests
 
 url = "http://natas30.natas.labs.overthewire.org/"
-auth = ("natas30", "WQhx1BvcmP9irs2MP9tRnLsNaDI76YrH")
+auth = ("natas30", "[PW_HERE]")
 
 session = requests.Session()
 session.auth = (auth)
