@@ -1,6 +1,6 @@
 import requests
 
-auth = ("natas19", "tnwER7PdfWkxsG4FNWUtoAZ9VyZTJqJr")
+auth = ("natas19", "[PW_HERE]")
 url = "http://natas19.natas.labs.overthewire.org"
 max_id = 640
 
