@@ -2,7 +2,7 @@
 import requests
 
 username = "natas16"
-password = "hPkjKYviLQctEW33QmuXL6eDVfMW4sGo"
+password = "[PW_HERE]"
 url = "http://natas16.natas.labs.overthewire.org/"
 
 charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
