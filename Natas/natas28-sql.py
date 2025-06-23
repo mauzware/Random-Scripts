@@ -5,7 +5,7 @@ import base64
 
 url = "http://natas28.natas.labs.overthewire.org/"
 url_search = "http://natas28.natas.labs.overthewire.org/search.php/?query="
-auth = ("natas28", "1JNwQM1Oi6J6j1k49Xyw7ZN6pXMQInVj")
+auth = ("natas28", "[PW_HERE]")
 
 sess = requests.Session()
 sess.auth = auth
