@@ -3,7 +3,7 @@ import json
 import hashlib
 import subprocess
 
-auth = ("natas33", "2v9nDlbSF7jvawaCncr5Z9kSzkmBeoCJ")
+auth = ("natas33", "[PW_HERE]")
 url = "http://natas33.natas.labs.overthewire.org"
 
 
